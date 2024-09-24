@@ -1,4 +1,4 @@
 {
-  "dateFormat": "{{date:YYYY-MM-DD}}",
+  "dateFormat": "YYYY-MM-DD",
   "folder": "Template"
 }
