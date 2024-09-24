@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "a95bba9e53a6974b",
+    "type": "split",
+    "children": [
+      {
+        "id": "339893f746096591",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "501bd31a0dfbc892",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extras/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7632485cc158a50c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65ec19afcf08ecf2",
+    "type": "split",
+    "children": [
+      {
+        "id": "756f41b05c4ca648",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fe8b734cb23e048",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a9e27df04e8e264",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1959826d592d7c7d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bde9922bcc048060",
+    "type": "split",
+    "children": [
+      {
+        "id": "c613bd058c890df7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea04c65d63fdc390",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Template/Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2c383ea1e10f4481",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Template/Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4b949134a61e066f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e53127f0f51158b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Template/Untitled.md"
+              }
+            }
+          },
+          {
+            "id": "479fbc168e8a2e88",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "479fbc168e8a2e88",
+  "lastOpenFiles": [
+    "Extras/Untitled.md",
+    "Template/Untitled.md",
+    "Pasted image 20240924161308.png",
+    "Untitled",
+    "Template",
+    "Extras/Untitled",
+    "Welcome.md",
+    "Extras",
+    "Random notes",
+    "Uni",
+    "attachments"
+  ]
+}
