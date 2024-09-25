@@ -1,7 +1,7 @@
 
-Created <font style="color:tomato; font-family:Consolas;">2024-09-24</font>
-
-Tags: #electronics #arduino
+Created <font style="color:tomato; font-family:Consolas;">24-09-2024</font> 
+ 
+Tags: #electronics #arduino #pwm
 
 ****
 
@@ -68,11 +68,21 @@ There are specific interrupt registers that could turn a pin `ON` or `OFF` based
 
 ### Working together
 
-This is how we can generate a 8-bit PWM using only hardware timers and interrupts:
+This is how we setup a pin to generate 8-bit PWM using only hardware timers and interrupts:
 
 1) Choose an 8-bit timer and set it's mode to reset on overflow. We will choose `timer2` on the Arduino UNO since it is 8-bit.
 
 2) Enable an interrupt register to **toggle** the pin state whenever `timer2` reaches a specific value `n` , and also when reaching the TOP value.
+
+The flow of events is as follows:
+
+1) `timer2` counts upwards from 0
+
+2) When the `timer2` value matches `n`, the interrupt register is triggered and the pin state is toggled
+
+3) `timer2` continues counting, and when it reaches it's TOP value, the interrupt register is triggered again and the pin state is toggled
+
+4) `timer2` overflows and starts counting from 0 again.
 
 The graph below shows `timer2`  counting from 0 to it's TOP value (255 default), and the interrupt value `n`.
 
@@ -85,4 +95,39 @@ Below is resulting voltage output from the pin being toggled `ON` and `OFF`.
 Now let's change the interrupt value `n` to a larger value:
 
 ![[Pasted image 20240924214020.png]]
+
+We can hence generate a variable PWM signal by adjusting the interrupt compare value `n`.
+
+$$Duty\; cycle=\frac{n}{TOP}\times 100\%$$
+
+## Frequency
+
+The frequency of the PWM signal depends on the period of 1 cycle. We can see from the previous section that the period is basically the time taken for the timer to count from 0-TOP. Hence, we can adjust the frequency of the PWM signal by changing how fast the timer counts.
+
+We also mentioned earlier that we can configure a pre-scaler for the timers. Pre-scalers divide the core clock ticks by a specific amount before feeding it to the timer.
+
+For example, the Arduino UNO has a core clock speed of 16MHz. `timer1`  has a pre-scaler of 0 by default, counting up by 1 for **every clock tick**. if we set a pre-scaler of 4 for `timer1`, it will increment it's value by 1 for **every 4 clock ticks** instead, essentially slowing it down by 4x.
+
+The frequency of the PWM signal is hence calculated by
+
+$$pwm\; freq.=\frac{core\; freq.}{(1+TOP)\times prescaler}$$
+
+From the equation, we can see that the PWM frequency is inversely proportional to the TOP value. This is also the reason why a high PWM **resolution** is not always desirable since it lowers the maximum PWM frequency.
+
+>The PWM frequency to control power electronics, such as switching power supply or chopper drives, is usually set above 30kHz to eliminate electrical noise. 30kHz is chosen since it is well above the upper limit of the human hearing range.
+
+### Example: Calculating Arduino UNO PWM frequency
+
+Let's say we want to generate an 8-bit PWM of around 30kHz on the Arduino UNO which runs at 16MHz. How do we configure the timers?
+
+TOP value for 8-bit PWM : $2^8-1=255$ (We subtract 1 since the timer starts counting from 0, not 1)
+
+Plug the desired frequency and TOP into the formula:
+
+$$30\times 10^3=\frac{16\times 10^6}{(1+255)\times prescalar}$$
+$$prescalar=\frac{16\times 10^6}{256\times 30\times 10^3}=2.083$$
+
+However, we can only set integer pre-scalers, so we will use a pre-scalar of 2 instead.
+
+
 

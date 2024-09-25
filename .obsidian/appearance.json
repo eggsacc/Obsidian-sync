@@ -1,3 +1,6 @@
 {
-  "interfaceFontFamily": "Calibri"
+  "interfaceFontFamily": "Calibri",
+  "enabledCssSnippets": [
+    "centerImage"
+  ]
 }
