@@ -11,7 +11,7 @@ Related: [[Arduino register manipulation]]
 
 The blink sketch is like the "Hello, world!" for microcontrollers. It is so simple and straight forward that even people with zero coding background knows what it does....right?
 
-Let's try to rewrite the blink sketch without using ANY Arduino library functions, using a "bare-metal" approach in programming instead.
+Let's try to rewrite the blink sketch without using ANY Arduino library functions, using a "bare-metal" approach to program it instead.
 
 > The final code will ***only work*** for the **ATmega328p chip** (Arduino UNO, Arduino NANO ONLY) !!!!
 
@@ -135,7 +135,7 @@ Now when we re-upload the code, the LED blinks as expected. However, do note tha
 
 ## 3) Replacing macros
 
-The DDRB, PORTB etc. used in our code are still not "low level" enough; if we hover our cursor over the `DDRB` or` PORTB`, we see that is is actually a macro defined in the Arduino core library:
+The DDRB, PORTB etc. used in our code are still not "low level" enough; if we hover our cursor over `DDRB` or` PORTB`, we see that is is actually a macro defined in the Arduino core library:
 
 
 ![[Pasted image 20240928154446.png|center]]
@@ -172,7 +172,7 @@ void loop(){
 }
 ````
 
-I named the pointers something gay to prove that it is not used or pre-defined in any libraries. However, when we upload this code, the LED does not blink.
+I named the pointers something gay to prove that it is not used or pre-defined in any libraries. However, when we upload this code, the LED **does not blink**.
 
 This is again due to the compiler optimizing part of the code out for us. In this case, the compiler sees that the pointer variable `*pGay` is not used anywhere in the code after it's been assigned a value in `*pGay = (1<<5);` and just automatically deletes it to save memory.
 
@@ -232,9 +232,9 @@ While this may look even more confusing for us, other developers look at it and 
 
 Finally, the only 2 pre-defined Arduino functions left are the `void setup()` and `void loop()`. Arduino code is just highly abstracted C++, so everything still runs under the `int main()` function. 
 
-The `setup()` function abstracts a bunch of initialization and configuration stuff for the timers, interrupts etc. , and we can totally just exclude it if we are not using timer-related Arduino functions like `delay()`. 
+The `void setup()` function abstracts a bunch of initialization and configuration stuff for the timers, interrupts etc. that we can totally just ignore if we are not using timer-related Arduino functions like `delay()`, `millis()` etc. 
 
-The `loop()` is even simpler; it is just a infinite `while(true)` loop within the `int main()` function.
+`void loop()` is even simpler; it is just an infinite `while(true)` loop within the `int main()` function.
 
 The code will look something like this:
 
@@ -259,7 +259,7 @@ int main() {
 }
 ````
 
-Maybe it doesn't bother you as much, but the repeated use of `*((volatile byte*) 0x25) |= (1<<5);` to fill in the counter loops looks rather messy and unprofessional. Instead, we can make the processor do something equally useless that could be written in a much shorter form:  enabling or disabling the global interrupt flag, using the functions `cli()` or `sei()`.
+Maybe it doesn't bother you as much, but the repeated use of `*((volatile byte*) 0x25) |= (1<<5)` to fill in the `for` loops looks rather messy and unprofessional. Instead, we can make the processor do something equally useless that could be written in a much shorter form:  enabling or disabling the global interrupt flag, using the functions `cli()` or `sei()`.
 
 >If you know what `cli()` or `sei()` is, you're probably a nerd that lives a not-so-fun life. Just saying.
 
@@ -300,4 +300,4 @@ The original sketch used 924 bytes of storage, while our "bare-metal" program on
 
 ## Summary 
 
-Don't do it.
+Just write the code like a normal person; don't be weird.

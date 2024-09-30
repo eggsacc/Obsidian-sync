@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32c103a9ce73b0f2",
+            "id": "8c72b91afd5f5db4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MCUs/Arduino/Embeded/Arduino register manipulation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44396b6b4cc893a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MCUs/Arduino/Interrupts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c53b676abacbf0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MCUs/STM32/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4435dad231746c31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MCUs/STM32/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b114a58f157be31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gay porn/Binary/The binary system.md",
+                "file": "Pointer arithmetic & types.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gay porn/Binary/The binary system.md",
+                "file": "Pointer arithmetic & types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gay porn/Binary/The binary system.md",
+                "file": "Pointer arithmetic & types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gay porn/Binary/The binary system.md"
+                "file": "Pointer arithmetic & types.md"
               }
             }
           },
@@ -213,22 +164,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b114a58f157be31",
+  "active": "8c72b91afd5f5db4",
   "lastOpenFiles": [
-    "MCUs/STM32/Untitled.md",
-    "Gay porn/Binary/The binary system.md",
-    "Gay porn/Binary",
-    "MCUs/Arduino/Interrupts.md",
+    "Pointer arithmetic & types.md",
     "MCUs/Arduino/Embeded/Low level blink sketch.md",
-    "MCUs/Arduino/Embeded/Arduino register manipulation.md",
-    "Random notes/Untitled.md",
+    "Introduction to pointers.md",
+    "Untitled.md",
+    "USB PD.md",
     "Template/Notes.md",
+    "Random notes/Untitled.md",
+    "MCUs/Arduino/Embeded/Arduino register manipulation.md",
+    "Code",
+    "Gay porn/Binary/The binary system.md",
+    "Gay porn/Pulse width modulation.md",
+    "MCUs/STM32/Untitled.md",
+    "MCUs/Arduino/Interrupts.md",
+    "Gay porn/Binary",
     "attachments/Pasted image 20240928154446.png",
     "MCUs/STM32",
     "MCUs/Arduino",
     "MCUs",
     "MCUs/Arduino/Embeded",
-    "Gay porn/Pulse width modulation.md",
     "Gay porn/FOC",
     "attachments/Pasted image 20240926095600.png",
     "attachments/image.png",
@@ -245,7 +201,6 @@
     "Template",
     "Interesting stuff/Untitled",
     "Welcome.md",
-    "Gay porn",
-    "Random notes"
+    "Gay porn"
   ]
 }
