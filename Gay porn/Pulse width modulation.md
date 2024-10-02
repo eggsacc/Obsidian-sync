@@ -21,7 +21,7 @@ If we connect a LED between this pin and ground, we are turning the LED on half 
 
 >The 30Hz mentioned here is the threshold frequency for the persistence of vision effect in humans. Our eyes and brain retain a visual impression for ~1/30 of a second, so if the LED is blinking more than 30 times per second (30Hz), we perceive it as a continuous, intermediate brightness.
 
-Another example with the pin turned on 25% of a period, which produced 25% of 5V = 1.25V.
+Another example with the pin turned on 25% of a period, which produces 25% of 5V = 1.25V.
 
 ![[Pasted image 20240924200030.png]]
 

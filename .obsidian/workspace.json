@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c72b91afd5f5db4",
+            "id": "c4acfb2cc29f7666",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pointer arithmetic & types.md",
+                "file": "Pointers & dynamic memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Cpp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pointer arithmetic & types.md",
+                "file": "Pointers & dynamic memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pointer arithmetic & types.md",
+                "file": "Pointers & dynamic memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pointer arithmetic & types.md"
+                "file": "Pointers & dynamic memory.md"
               }
             }
           },
@@ -164,23 +164,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c72b91afd5f5db4",
+  "active": "c4acfb2cc29f7666",
   "lastOpenFiles": [
+    "attachments/Pasted image 20241002180500.png",
+    "Pointers & dynamic memory.md",
+    "attachments/Pasted image 20241002204711.png",
+    "Pointers & arrays.md",
+    "Pointers & character arrays.md",
+    "Pointers & multi-dimensional arrays.md",
     "Pointer arithmetic & types.md",
-    "MCUs/Arduino/Embeded/Low level blink sketch.md",
+    "Pass by reference.md",
     "Introduction to pointers.md",
-    "Untitled.md",
-    "USB PD.md",
+    "attachments/image-removebg-preview.png",
+    "attachments/Pasted image 20241002173151.png",
+    "attachments/Pasted image 20240928154446.png",
+    "attachments/Pasted image 20241002173117.png",
+    "Pointers to pointers.md",
     "Template/Notes.md",
-    "Random notes/Untitled.md",
+    "MCUs/Arduino/Embeded/Low level blink sketch.md",
     "MCUs/Arduino/Embeded/Arduino register manipulation.md",
-    "Code",
     "Gay porn/Binary/The binary system.md",
-    "Gay porn/Pulse width modulation.md",
     "MCUs/STM32/Untitled.md",
+    "Random notes/Untitled.md",
+    "Gay porn/Pulse width modulation.md",
+    "To-do notes/heap, stack, instructions memory.md",
+    "To-do notes",
+    "To-do notes/USB PD.md",
+    "Code",
     "MCUs/Arduino/Interrupts.md",
     "Gay porn/Binary",
-    "attachments/Pasted image 20240928154446.png",
     "MCUs/STM32",
     "MCUs/Arduino",
     "MCUs",
@@ -190,17 +202,11 @@
     "attachments/image.png",
     "attachments/Pasted image 20240925174137.png",
     "attachments/Pasted image 20240924195644.png",
-    "attachments/Pasted image 20240924214020.png",
-    "attachments/Pasted image 20240924213930.png",
-    "attachments/Pasted image 20240924213433.png",
-    "attachments/Pasted image 20240924200030.png",
-    "attachments/Pasted image 20240924161308.png",
     "Untitled 1.md",
     "Untitled 2.md",
     "Extras/Untitled.md",
     "Template",
     "Interesting stuff/Untitled",
-    "Welcome.md",
-    "Gay porn"
+    "Welcome.md"
   ]
 }

@@ -1,7 +1,7 @@
 
 Created <font style="color:tomato; font-family:Consolas;">30-09-2024</font>
 
-Tags: #C #Cpp #pointers
+Tags: #c #cpp #pointers
 
 Related: NIL
 
