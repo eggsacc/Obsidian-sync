@@ -1,7 +1,7 @@
 
 Created <font style="color:tomato; font-family:Consolas;">02-10-2024</font>
 
-Tags: #c #cpp #pointers
+Tags: #c #cpp #pointers #arrays
 
 Related: [[Introduction to pointers]] | [[Pointer arithmetic & types]] | [[Pointers & arrays]]
 
