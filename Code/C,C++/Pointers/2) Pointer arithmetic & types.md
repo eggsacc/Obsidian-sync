@@ -3,7 +3,7 @@ Created <font style="color:tomato; font-family:Consolas;">30-09-2024</font>
 
 Tags: #c #cpp #pointers 
 
-Related: [[Introduction to pointers]]
+Related: [[1) Introduction to pointers]]
 
 ****
 
@@ -25,6 +25,7 @@ Each memory location is 1 byte. To store a integer that is 4 bytes, the compiler
 | Memory address: |  0x22  |  0x23  |  0x24  |  0x25  |
 | :-------------: | :----: | :----: | :----: | :----: |
 |      Byte       | Byte 0 | Byte 1 | Byte 2 | Byte 3 |
+
 When we create a pointer to point to the memory address of this integer, it will point to the address of byte 0 `(0x22)`.
 
 ````c++
@@ -44,6 +45,7 @@ Let's create an integer `a = 1025`(binary `1000000001`). This is what `a` looks 
 | Memory address |   0xe4   |   0xe3   |   0xe2   |   0xe1   |
 |:--------------:|:--------:|:--------:|:--------:|:--------:|
 |      Bits      | 00000000 | 00000000 | 00000010 | 00000001 |
+
 > Binary number are read from right to left, so the address is also arranged from right to left
 
 Now we do the usual stuff and create a pointer `ptr` pointing to the address of `a`. However, when we de-reference the pointer, we will use a `typecast` to change the pointer `ptr` type to a `char` instead.

@@ -3,7 +3,7 @@ Created <font style="color:tomato; font-family:Consolas;">02-10-2024</font>
 
 Tags: #c #cpp #pointers #memory
 
-Related: [[Introduction to pointers]] | [[Pointers & arrays]]
+Related: [[1) Introduction to pointers]] | [[5) Pointers & arrays]]
 
 ****
 

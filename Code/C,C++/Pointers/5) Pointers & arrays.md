@@ -3,7 +3,7 @@ Created <font style="color:tomato; font-family:Consolas;">01-10-2024</font>
 
 Tags: #c #cpp #pointers 
 
-Related: [[Introduction to pointers]] | [[Pointer arithmetic & types]] | [[Pass by reference]]
+Related: [[1) Introduction to pointers]] | [[2) Pointer arithmetic & types]] | [[4) Pass by reference]]
 
 ****
 
