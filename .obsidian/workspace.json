@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-do notes/9) Pointers as function returns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88b3f9145e9a44e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To-do notes/Arduino timer pwm.md",
+                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-do notes/Arduino timer pwm.md",
+                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-do notes/Arduino timer pwm.md",
+                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-do notes/Arduino timer pwm.md"
+                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md"
               }
             }
           },
@@ -177,19 +164,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88b3f9145e9a44e2",
+  "active": "c4acfb2cc29f7666",
   "lastOpenFiles": [
-    "To-do notes/9) Pointers as function returns.md",
+    "Code/C,C++/Pointers/9) Pointers as function returns.md",
+    "Code/C,C++/Pointers/8) Pointers & dynamic memory.md",
+    "attachments/Pasted image 20241005234057.png",
+    "Gay porn/Binary/The binary system.md",
+    "attachments/Pasted image 20241005232846.png",
+    "attachments/Pasted image 20241005232510.png",
+    "MCUs/Arduino/Embeded/Low level blink sketch.md",
+    "MCUs/Arduino/Embeded/Arduino register manipulation.md",
     "To-do notes/Arduino timer pwm.md",
     "Code/C,C++/Pointers/7) Pointers & multi-dimensional arrays.md",
-    "Code/C,C++/Pointers/8) Pointers & dynamic memory.md",
     "Code/C,C++/Pointers/6) Pointers & character arrays.md",
     "Code/C,C++/Pointers/5) Pointers & arrays.md",
     "Code/C,C++/Pointers/4) Pass by reference.md",
     "Code/C,C++/Pointers/3) Pointers to pointers.md",
     "Code/C,C++/Pointers/2) Pointer arithmetic & types.md",
     "Code/C,C++/Pointers/1) Introduction to pointers.md",
-    "Gay porn/Binary/The binary system.md",
     "Code/C,C++/Pointers",
     "Code/C,C++",
     "attachments/Pasted image 20241004093121.png",
@@ -199,12 +191,7 @@
     "attachments/Pasted image 20241003105209.png",
     "attachments/Pasted image 20241003104632.png",
     "attachments/Pasted image 20241002180500.png",
-    "attachments/Pasted image 20241002204711.png",
-    "attachments/image-removebg-preview.png",
-    "attachments/Pasted image 20241002173151.png",
     "Template/Notes.md",
-    "MCUs/Arduino/Embeded/Low level blink sketch.md",
-    "MCUs/Arduino/Embeded/Arduino register manipulation.md",
     "MCUs/STM32/Untitled.md",
     "Random notes/Untitled.md",
     "Gay porn/Pulse width modulation.md",

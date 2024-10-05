@@ -39,7 +39,7 @@ Global variables use 9 bytes (0%) of dynamic memory.
 
 ## 1) Removing `digitalWrite()`&`pinMode()`
 
-`pinMode()` and `digitalWrite()` can be replaced by direct register manipulation, explained in detail here.
+`pinMode()` and `digitalWrite()` can be replaced by [[Arduino register manipulation]].
 
 We know from the datasheet that pin D13 on the Arduino UNO corresponds to pin PB5 on the ATmega328p chip. Hence we know that it is in port B and is controlled by bit 5 in the port B registers. 
 
@@ -73,7 +73,7 @@ Upload the code and the on-board LED blinks as expected. We have successfully re
 
 In the Arduino core library, the `delay()` function basically makes the microcontroller do nothing for a specified amount of time. We can emulate this function by making the Arduino count from 0 to a really large number, and just do nothing while it counts.
 
-We use the loop `for(long i = 0; i < 2000000; i++){ }` to iterate from 0 - 1million without doing anything in between.
+We use the loop `for(long i = 0; i < 2000000; i++){ }` to iterate from 0 - 2million without doing anything in between.
 
 ````c++
 void setup(){
