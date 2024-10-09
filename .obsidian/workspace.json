@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md",
+                "file": "Gay porn/Binary & Hex/1) The binary system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de8cf4bc9e4f65c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gay porn/Binary & Hex/2) Bitwise operations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9de4329138b37513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gay porn/Binary & Hex/3) Signed bits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87628ccf581c2662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MCUs/STM32/STM32 PWM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e779b1128c6cccb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MCUs/STM32/STM32 timers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d26ee0df81ce965e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MCUs/STM32/STM32 timers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -85,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md",
+                "file": "MCUs/STM32/STM32 timers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md",
+                "file": "MCUs/STM32/STM32 timers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md"
+                "file": "MCUs/STM32/STM32 timers.md"
               }
             }
           },
@@ -164,50 +225,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4acfb2cc29f7666",
+  "active": "d26ee0df81ce965e",
   "lastOpenFiles": [
+    "To-do notes/Arduino timer pwm.md",
+    "MCUs/Arduino/Embeded/Arduino register manipulation.md",
+    "MCUs/Arduino/Embeded/Low level blink sketch.md",
+    "MCUs/STM32/STM32 timers.md",
+    "MCUs/STM32/STM32 PWM.md",
+    "attachments/Pasted image 20241009093255.png",
+    "attachments/Pasted image 20241009092615.png",
+    "attachments/Pasted image 20241008221150.png",
+    "attachments/Pasted image 20241008220706.png",
+    "attachments/Pasted image 20241008220222.png",
+    "MCUs/STM32/STM32 PWM timer config.md",
+    "attachments/Pasted image 20241008205611.png",
+    "Gay porn/Binary & Hex/3) Signed bits.md",
+    "Gay porn/Binary & Hex/2) Bitwise operations.md",
+    "Gay porn/Binary & Hex/1) The binary system.md",
+    "Gay porn/Binary & Hex/Hexadecimals.md",
+    "To-do notes/USB PD.md",
+    "Code/C,C++/Pointers/7) Pointers & multi-dimensional arrays.md",
+    "Code/C,C++/Pointers/5) Pointers & arrays.md",
+    "attachments/Pasted image 20241003111443.png",
+    "attachments/Pasted image 20241004093121.png",
+    "attachments/Pasted image 20241005232510.png",
+    "attachments/Pasted image 20241005232846.png",
     "Code/C,C++/Pointers/9) Pointers as function returns.md",
     "Code/C,C++/Pointers/8) Pointers & dynamic memory.md",
-    "attachments/Pasted image 20241005234057.png",
-    "Gay porn/Binary/The binary system.md",
-    "attachments/Pasted image 20241005232846.png",
-    "attachments/Pasted image 20241005232510.png",
-    "MCUs/Arduino/Embeded/Low level blink sketch.md",
-    "MCUs/Arduino/Embeded/Arduino register manipulation.md",
-    "To-do notes/Arduino timer pwm.md",
-    "Code/C,C++/Pointers/7) Pointers & multi-dimensional arrays.md",
     "Code/C,C++/Pointers/6) Pointers & character arrays.md",
-    "Code/C,C++/Pointers/5) Pointers & arrays.md",
     "Code/C,C++/Pointers/4) Pass by reference.md",
     "Code/C,C++/Pointers/3) Pointers to pointers.md",
     "Code/C,C++/Pointers/2) Pointer arithmetic & types.md",
     "Code/C,C++/Pointers/1) Introduction to pointers.md",
     "Code/C,C++/Pointers",
     "Code/C,C++",
-    "attachments/Pasted image 20241004093121.png",
-    "attachments/Pasted image 20241003111443.png",
-    "attachments/Pasted image 20241003111330.png",
-    "attachments/Pasted image 20241003105452.png",
-    "attachments/Pasted image 20241003105209.png",
-    "attachments/Pasted image 20241003104632.png",
-    "attachments/Pasted image 20241002180500.png",
     "Template/Notes.md",
-    "MCUs/STM32/Untitled.md",
     "Random notes/Untitled.md",
     "Gay porn/Pulse width modulation.md",
     "To-do notes",
-    "To-do notes/USB PD.md",
     "Code",
     "MCUs/Arduino/Interrupts.md",
-    "Gay porn/Binary",
+    "Gay porn/Binary & Hex",
     "MCUs/STM32",
     "MCUs/Arduino",
     "MCUs",
     "MCUs/Arduino/Embeded",
     "Gay porn/FOC",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Extras/Untitled.md",
-    "Welcome.md"
+    "Untitled 1.md"
   ]
 }
