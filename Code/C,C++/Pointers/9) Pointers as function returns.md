@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]] | [[4) Pass by reference]] | [[8) Point
 
 ****
 
-# Returning a pointer
+## Returning a pointer
 
 let's write a simple function that returns a pointer to it's output value instead of the value itself.
 

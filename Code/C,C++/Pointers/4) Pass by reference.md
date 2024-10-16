@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]] | [[2) Pointer arithmetic & types]] | [
 
 ****
 
-# Call by reference
+## Call by reference
 
 We can call a function and pass the address of some variable to be de-referenced within the function.
 

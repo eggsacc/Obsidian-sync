@@ -7,11 +7,11 @@ Related: NIL
 
 ****
 
-# The decimal system
+## The decimal system
 
 The number system all too familiar to us humans is known as the decimal, or base-10 system. It is a base-10 system since there are 10 distinct numbers (0-9) that could be used to represent a digit. 
 
-In a number with multiple digits, the rightmost (last) digit represents $10^0$, and each digit towards the left represented a higher power of 10, e.g 2nd digit from right represents $10^2$ , 3rd digit represents $10^3$ etc.
+In a number with multiple digits, the rightmost (last) digit represents $10^0$, and each digit towards the left represented a higher power of 10, e.g. 2nd digit from right represents $10^2$ , 3rd digit represents $10^3$ etc.
 
 | Digits     |       3       |       2       |       8       |       7       |
 | ---------- |:-------------:|:-------------:|:-------------:|:-------------:|

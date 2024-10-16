@@ -7,7 +7,7 @@ Related: NIL
 
 ****
 
-# What are pointers?
+## What are pointers?
 
 When we create a variable in our code, the compiler assigns some memory space to it and takes note of the **location** in memory that it is stored. We can create a pointer variable that **stores the memory address** of some other variable, and use it to directly access or manipulate the location it "points" to.
 

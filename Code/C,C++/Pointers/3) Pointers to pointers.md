@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]] | [[2) Pointer arithmetic & types]]
 
 ****
 
-# Referencing pointers
+## Referencing pointers
 
 When we create a pointer variable, some memory is also allocated to store the address of whatever it is pointing to. Hence, the pointer also lives in the computer memory, and has an address.
 

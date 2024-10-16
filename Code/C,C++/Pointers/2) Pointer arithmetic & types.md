@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]]
 
 ****
 
-# How variables are stored
+## How variables are stored
 
 We know that pointers are strongly-typed, meaning we must explicitly specify the type of variable the pointer is pointing to. Why can't we just create some generic pointer that can point to any type of variable in memory?
 
@@ -63,7 +63,7 @@ cout << *ptr_char << endl;
 The output is 1 instead of 1025 due to the pointer being of the type `char`. As aforementioned, the datatype `char` only uses 1 byte of memory, so the pointer of type `char` will only extract 1 byte of data from the memory location of `a`, which is `00000001`, or simply 1 in decimal.
 
 
-## What happens if we add some number to a pointer?
+## Incrementing pointers
 
 ````c++
 int a = 0;

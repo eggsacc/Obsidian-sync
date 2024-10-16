@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]] | [[2) Pointer arithmetic & types]] | [
 
 ****
 
-# 2D arrays
+## 2D arrays
 
 #### Memory allocation & creating pointer
 

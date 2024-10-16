@@ -7,7 +7,7 @@ Related: [[1) The binary system]]
 
 ****
 
-# Base 16 system
+## Base 16 system
 
 Instead of just using the numbers 0 through 9 to represent a digit in the decimal system, or 1s and 0s like the binary system, hexadecimals use both numbers and alphabets to produce a base-16 system. Hexadecimals use the alphabets A-F as an extension to the numbers 0-9, forming the 16 digit sequence:
 

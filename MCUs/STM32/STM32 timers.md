@@ -26,3 +26,22 @@ The table below summarizes all the differences between TIM1 and TIM2-4, courtesy
 ![[Pasted image 20241008205611.png]]
 
 
+## PWM modes
+
+There are 2 PWM modes available in the STM32cubeIDE: 
+
+1) Mode 1: Active signal when timer is counting up, inactive after exceeding `CCRx`.
+2) Mode 2: Inactive signal when counting up, active after exceeding `CCRx`.
+
+
+## Registers
+
+All the configurable timer registers are stored in a timer structure.
+
+![[Pasted image 20241009151331.png]]
+
+The highlighted registers are the ones we are interested in.
+
+
+
+

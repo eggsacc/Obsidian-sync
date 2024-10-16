@@ -27,3 +27,7 @@ Set the PWM mode to mode 1, and optionally set the default duty cycle (usually n
 
 ![[Pasted image 20241009093255.png | center]]
 
+
+
+## In code
+

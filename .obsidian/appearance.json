@@ -1,7 +1,11 @@
 {
-  "interfaceFontFamily": "Calibri",
+  "interfaceFontFamily": "Calibri,Inter",
   "enabledCssSnippets": [
     "centerImage",
-    "centerTable"
-  ]
+    "centerTable",
+    "centerGraph"
+  ],
+  "textFontFamily": "Calibri,Karla",
+  "theme": "obsidian",
+  "cssTheme": "Tokyo Night"
 }

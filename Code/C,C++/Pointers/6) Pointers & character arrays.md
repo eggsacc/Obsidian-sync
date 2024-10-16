@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]] | [[2) Pointer arithmetic & types]] | [
 
 ****
 
-# Storing characters
+## Storing characters
 
 Let's say we want to store the characters in the word "GAY" in an array and print the array out.
 

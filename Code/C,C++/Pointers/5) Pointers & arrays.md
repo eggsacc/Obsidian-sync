@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]] | [[2) Pointer arithmetic & types]] | [
 
 ****
 
-# How arrays are stored
+## How arrays are stored
 
 ````c++
 int arr[5];

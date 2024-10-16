@@ -7,7 +7,7 @@ Related: [[1) Introduction to pointers]] | [[5) Pointers & arrays]]
 
 ****
 
-# Memory allocation
+## Memory allocation
 
 The memory allocated to a program is divided into 4 sections.
 
