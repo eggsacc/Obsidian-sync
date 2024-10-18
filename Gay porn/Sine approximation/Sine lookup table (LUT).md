@@ -3,7 +3,7 @@ Created <font style="color:tomato; font-family:Consolas;">14-10-2024</font>
 
 Tags: 
 
-Related: NIL
+Related: [[Optimizing sine LUT]] 
 
 ****
 

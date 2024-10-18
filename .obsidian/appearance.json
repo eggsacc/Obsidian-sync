@@ -3,7 +3,8 @@
   "enabledCssSnippets": [
     "centerImage",
     "centerTable",
-    "centerGraph"
+    "centerGraph",
+    "invtColor"
   ],
   "textFontFamily": "Calibri,Karla",
   "theme": "obsidian",

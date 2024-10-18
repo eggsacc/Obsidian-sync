@@ -1,9 +1,9 @@
 
 Created <font style="color:tomato; font-family:Consolas;">08-10-2024</font>
 
-Tags: #binary #1complement #2complement
+Tags: #binary
 
-Related: NIL
+Related: [[1) The binary system]]
 
 ****
 

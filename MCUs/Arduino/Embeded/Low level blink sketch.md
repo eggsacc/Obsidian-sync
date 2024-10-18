@@ -135,13 +135,13 @@ Now when we re-upload the code, the LED blinks as expected. However, do note tha
 
 ## 3) Replacing macros
 
-The DDRB, PORTB etc. used in our code are still not "low level" enough; if we hover our cursor over `DDRB` or` PORTB`, we see that is is actually a macro defined in the Arduino core library:
+The DDRB, PORTB etc. used in our code are still not "low level" enough; if we hover our cursor over `DDRB` or `PORTB`, we see that is is actually a macro defined in the Arduino core library:
 
 
 ![[Pasted image 20240928154446.png|center]]
 
 
-We can avoid using these macros by using pointers instead. Pointers allow us to directly manipulate the bits stored in a memory address; more about it explained here.
+We can avoid using these macros by using pointers instead. Pointers allow us to directly manipulate the bits stored in a memory address.
 
 We know from the ATmega328p datasheet that the memory address of the `DDRB` register is `0x24`, and the `PORTB` register is located at `0x25`.
 
@@ -176,7 +176,7 @@ I named the pointers something gay to prove that it is not used or pre-defined i
 
 This is again due to the compiler optimizing part of the code out for us. In this case, the compiler sees that the pointer variable `*pGay` is not used anywhere in the code after it's been assigned a value in `*pGay = (1<<5);` and just automatically deletes it to save memory.
 
-We can fix this issue by making the pointer variable `volatile`: this is a keyword that tells the compiler "yo keep this here bro, maybe it will be used *someday.*"
+We can fix this issue by making the pointer variable `volatile`: this is a keyword that tells the compiler "just leave it here, my doings are beyond your understanding."
 
 ````c++
 void setup(){
@@ -261,7 +261,7 @@ int main() {
 
 Maybe it doesn't bother you as much, but the repeated use of `*((volatile byte*) 0x25) |= (1<<5)` to fill in the `for` loops looks rather messy and unprofessional. Instead, we can make the processor do something equally useless that could be written in a much shorter form:  enabling or disabling the global interrupt flag, using the functions `cli()` or `sei()`.
 
->If you know what `cli()` or `sei()` is, you're probably a nerd that lives a not-so-fun life. Just saying.
+>If you know what `cli()` or `sei()` is, your life is probably not that interesting
 
 The final code looks like this:
 

@@ -1,6 +1,5 @@
-- c++ union
+
 - inline functions
-- c++ structs
 - extern
 - classes vs functions
 - classes replacement in C
