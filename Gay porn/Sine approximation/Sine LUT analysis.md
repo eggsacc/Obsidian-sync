@@ -47,7 +47,7 @@ The difference (error) is plotted against the input angle between $0-\frac{\pi}{
 
 ![[Z-SCORE DISTRIBUTION.svg#invert]]
 
-![[NORMAL DISTRIBUTION.svg#invert]]
+
 ## Error analysis
 
 - **Max. error:** +0.000167 (0.0167%)
@@ -57,7 +57,7 @@ The difference (error) is plotted against the input angle between $0-\frac{\pi}{
 
 In the code, the error value is `sin() - _sin()`. Since the mean error is non-zero and all the error values are positive, we can conclude that our `_sin()` function yields a constant under-estimate of the actual value. We can add the mean value of 0.00009078 to correct for the bias, but the error is too small (<0.01%) to be worth the extra effort and computational power.
 
-The histogram of Z-scores also shows that most of the output values lie within 1 Standard Deviation (S.D) from the mean, hence the function is decently precise.
+The histogram of Z-scores also shows that most of the output values lie within 1 Standard Deviation (S.D) from the mean, hence the function is sufficiently precise.
 
 ## Speed analysis
 
@@ -140,5 +140,5 @@ void loop() {}
 
 Calculating 157 sine values using the sine lookup table shows a 42% increase in speed over the default `sin()` function.
 
-Overall, the `_sin()` function has good precision and produces consistent results with little variations, hence it is a suitable approximation of the sine function.
+Overall, the `_sin()` function is considerably faster, has good precision and produces consistent results, hence it is a suitable approximation of the sine function.
 

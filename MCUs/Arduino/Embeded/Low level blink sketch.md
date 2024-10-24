@@ -300,4 +300,4 @@ The original sketch used 924 bytes of storage, while our "bare-metal" program on
 
 ## Summary 
 
-Just write the code like a normal person; don't be weird.
+Just write the code like a normal person.

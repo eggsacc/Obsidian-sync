@@ -13,7 +13,7 @@ The digital pins on the Arduino can only be toggled between 5V (HIGH) and 0V (LO
 
 By switching the pin between 0V and 5V *really* fast, the pin can supply an "average voltage".
 
-The example below show the pin being turned on 50% of one period. When this is done at a high frequency, the output will be the average voltage, which is 50% of 5V = 2.5V.
+The example below shows the pin being turned on 50% of one period. When this is done at a high frequency, the output will be the average voltage, which is 50% of 5V = 2.5V.
 
 ![[Pasted image 20240924195644.png]]
 
@@ -90,7 +90,7 @@ The graph below shows `timer2`  counting from 0 to it's TOP value (255 default),
 
 ![[Pasted image 20240924213433.png]]
 
-Below is resulting voltage output from the pin being toggled `ON` and `OFF`. 
+Below is the resulting voltage output from the pin being toggled `ON` and `OFF`. 
 
 ![[Pasted image 20240924213930.png]]
 

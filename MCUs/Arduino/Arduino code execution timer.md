@@ -9,7 +9,7 @@ Related: NIL
 
 ## Timer functions
 
-> This will only work for Arduinos using the ATmega328p chip.
+> This will only work for Arduinos using the ATmega328p chip, and only for very fast processes taking <4ms.
 
 ````c
 void initTimer()
