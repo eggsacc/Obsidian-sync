@@ -30,6 +30,11 @@
 	- [[STM32 PWM]]
 	- [[STM32 timers]]
 
+## CS
+- Data structures
+	- [[Linked lists]]
+	- [[Singly linked lists in C]]
+
 ## Miscellaneous
 
 - Binary & Hex

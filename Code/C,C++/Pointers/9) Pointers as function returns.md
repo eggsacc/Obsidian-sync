@@ -3,7 +3,7 @@ Created <font style="color:tomato; font-family:Consolas;">05-10-2024</font>
 
 Tags: #c #cpp #pointers #memory 
 
-Related: [[1) Introduction to pointers]] | [[4) Pass by reference]] | [[8) Pointers & dynamic memory]]
+Related:  [[8) Pointers & dynamic memory]]
 
 ****
 
