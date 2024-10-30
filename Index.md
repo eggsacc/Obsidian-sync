@@ -34,6 +34,7 @@
 - Data structures
 	- [[Linked lists]]
 	- [[Singly linked lists in C]]
+	- [[Doubly linked lists]]
 
 ## Miscellaneous
 

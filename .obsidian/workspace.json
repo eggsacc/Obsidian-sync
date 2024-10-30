@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/C,C++/Pointers/9) Pointers as function returns.md",
+                "file": "To-do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9) Pointers as function returns"
+              "title": "To-do"
+            }
+          },
+          {
+            "id": "40947813aabbe99d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
+            "id": "ae0b805d1ea8267b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/C,C++/Command line arguments.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Command line arguments"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,8 +214,18 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "eda72d3af3bbc704",
+  "active": "ae0b805d1ea8267b",
   "lastOpenFiles": [
+    "Code/C,C++/CMD code execution.md",
+    "Doubly linked lists in C.md",
+    "CS/Singly linked lists in C.md",
+    "Code/C,C++/Command line arguments.md",
+    "CS/Linked lists.md",
+    "CS/Doubly linked lists.md",
+    "To-do.md",
+    "Index.md",
+    "attachments/Pasted image 20241029071939.png",
+    "Code/C,C++/Pointers/9) Pointers as function returns.md",
     "Code/C,C++/Pointers/8) Pointers & dynamic memory.md",
     "Code/C,C++/Pointers/7) Pointers & multi-dimensional arrays.md",
     "Code/C,C++/Pointers/6) Pointers & character arrays.md",
@@ -195,16 +234,9 @@
     "Code/C,C++/Pointers/3) Pointers to pointers.md",
     "Code/C,C++/Pointers/4) Pass by reference.md",
     "Code/C,C++/Pointers/5) Pointers & arrays.md",
-    "Index.md",
-    "CS/Singly linked lists in C.md",
-    "To-do.md",
-    "CS/Linked lists.md",
     "Code/C,C++/Union.md",
     "Code/C,C++/Function-like macros.md",
-    "Code/C,C++/Command line arguments.md",
-    "Code/C,C++/CMD code execution.md",
     "Code/C,C++/Arrow operator.md",
-    "Code/C,C++/Pointers/9) Pointers as function returns.md",
     "Template/Notes template.md",
     "CS",
     "attachments/Pasted image 20241025135533.png",
@@ -219,11 +251,8 @@
     "MCUs/Arduino/Embeded/Low level blink sketch.md",
     "MCUs/Arduino/Embeded/Arduino register manipulation.md",
     "MCUs/Arduino/Arduino code execution timer.md",
-    "Gay porn/Pulse width modulation.md",
-    "Gay porn/Sine approximation/Taylor's series & sine approximation.md",
     "attachments/Screenshot 2024-10-15 001038.png",
     "attachments/Z-SCORE DISTRIBUTION.svg",
-    "attachments/Error against Angle (1).svg",
     "Coding problems",
     "Gay porn/Sine approximation",
     "Code/C,C++/Pointers",

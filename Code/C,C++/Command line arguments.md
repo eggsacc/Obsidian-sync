@@ -75,7 +75,7 @@ arg[0]: a.exe
 
 ## Converting string to `int`
 
-All arguments passed to `main()` are strings. If we expect the argument to be an integer, we have to convert the string to an `int`. However, we cannot just use normal type-casting `(int)arg` since conversion from strings to integers are more complicated.
+All arguments passed to `main()` are strings. If we expect the argument to be an integer, we have to convert the string to an `int`. However, we cannot just type-cast `(int)arg` since conversion from strings to integers are more complicated.
 
 We have to use another standard library called `stdlib.h` for the `atoi` function, which converts strings to integers.
 
