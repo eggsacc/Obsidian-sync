@@ -35,7 +35,13 @@
 	- [[Linked lists]]
 	- [[Singly linked lists in C]]
 	- [[Doubly linked lists]]
+	- [[Doubly linked lists in C]]
+	- [[Circular arrays]]
+	- [[Binary search]]
+	- [[Sliding window technique]]
 
+## Coding problems
+- [[Rotate string]]
 ## Miscellaneous
 
 - Binary & Hex
@@ -49,5 +55,6 @@
 	- [[Sine lookup table (LUT)]]
 	- [[Optimizing sine LUT]]
 	- [[Sine LUT analysis]]
+	- [[CORDIC algorithm]]
 
 - [[Pulse width modulation]]
