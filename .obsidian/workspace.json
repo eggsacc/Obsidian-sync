@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "79c4ac7ddd2e020a",
+        "id": "42304504b3003ac7",
         "type": "tabs",
         "children": [
           {
-            "id": "47ce3714e5b7473c",
+            "id": "9770b047c2e6b929",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To-do.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "To-do"
-            }
-          },
-          {
-            "id": "deca443a1dabc6e5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,53 +181,52 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "deca443a1dabc6e5",
+  "active": "9770b047c2e6b929",
   "lastOpenFiles": [
-    "Boyer-Moore Bad suffix algorithm.md",
+    "OpenGL mathematics.md",
+    "Coordinate system.md",
+    "attachments/Pasted image 20241206234307.png",
+    "attachments/Pasted image 20241206233408.png",
+    "attachments/Pasted image 20241206230919.png",
+    "attachments/Pasted image 20241206220704.png",
+    "attachments/Pasted image 20241206220337.png",
+    "Z-buffer.md",
+    "attachments/Pasted image 20241206213922.png",
+    "attachments/Pasted image 20241206213856.png",
+    "Homogeneous coordinates.md",
+    "attachments/Pasted image 20241206175409.png",
+    "Transformations.md",
+    "OpenGL triangle.md",
+    "attachments/Pasted image 20241206154522.png",
+    "attachments/Pasted image 20241206153615.png",
+    "Untitled.md",
     "To-do.md",
-    "Manim.md",
+    "Multiple VAO & VBOs.md",
+    "Shaders.md",
+    "Graphics pipeline.md",
+    "GLFW.md",
+    "Computer graphics.md",
+    "TFWR functions.md",
     "CORDIC algorithm.md",
-    "Coding problems/Rotate string.md",
-    "CS/Sliding window technique.md",
-    "Index.md",
-    "attachments/Pasted image 20241103200942.png",
-    "attachments/Pasted image 20241103015529.png",
-    "attachments/Pasted image 20241103001126.png",
-    "attachments/Pasted image 20241103000147.png",
-    "CS/Singly linked lists in C.md",
-    "CS/Doubly linked lists in C.md",
-    "CS/Doubly linked lists.md",
-    "CS/Circular arrays.md",
-    "CS/Binary search.md",
-    "CS/Linked lists.md",
-    "attachments/Pasted image 20241102145444.png",
-    "attachments/Pasted image 20241102144149.png",
-    "attachments/Pasted image 20241102125000.png",
-    "attachments/Pasted image 20241101230006.png",
-    "attachments/Pasted image 20241101225139.png",
-    "attachments/Pasted image 20241101224006.png",
-    "Code/C,C++/Command line arguments.md",
-    "Code/C,C++/CMD code execution.md",
-    "Code/C,C++/Pointers/9) Pointers as function returns.md",
-    "Code/C,C++/Pointers/8) Pointers & dynamic memory.md",
-    "Code/C,C++/Pointers/7) Pointers & multi-dimensional arrays.md",
-    "Code/C,C++/Pointers/6) Pointers & character arrays.md",
-    "Code/C,C++/Pointers/1) Introduction to pointers.md",
-    "Code/C,C++/Pointers/2) Pointer arithmetic & types.md",
-    "Code/C,C++/Pointers/3) Pointers to pointers.md",
-    "Code/C,C++/Pointers/4) Pass by reference.md",
-    "Code/C,C++/Pointers/5) Pointers & arrays.md",
-    "Code/C,C++/Union.md",
-    "Code/C,C++/Function-like macros.md",
+    "MCUs/Arduino/AVRDude.md",
+    "MCUs/Arduino/Embeded/Low level blink sketch.md",
+    "MCUs/Arduino/Embeded/Arduino register manipulation.md",
+    "Manim/Manim basics.md",
+    "Gay porn/Pulse width modulation.md",
+    "Gay porn/Finding absolute using binary.md",
+    "Gay porn/Sine approximation/Sine approximation.md",
+    "Gay porn/Finding primes/Finding primes.md",
+    "Gay porn/Binary & Hex/Binary & Hex.md",
+    "Gay porn/Misc..md",
+    "Code/Python",
+    "Code/C++",
+    "Gay porn/Finding primes",
+    "Manim",
     "CS",
     "Coding problems",
     "Gay porn/Sine approximation",
-    "Code/C,C++/Pointers",
-    "Code/C,C++",
-    "To-do notes",
-    "Code",
-    "Gay porn/Binary & Hex",
-    "MCUs/STM32",
-    "MCUs/Arduino"
+    "Code/C/Pointers",
+    "Code/C",
+    "To-do notes"
   ]
 }

@@ -28,6 +28,20 @@ Set the PWM mode to mode 1, and optionally set the default duty cycle (usually n
 ![[Pasted image 20241009093255.png | center]]
 
 
-
 ## In code
+
+We first have to start the PWM timer, then set the `CCRx` register in the `timx` struct to control the duty cycle.
+
+````c
+/* Assumming the use of Timer1 and pin attached to chanel 1*/
+TIM1->CCR1 = 0;
+
+HAL_TIM_PWM_Start(&htim1, TIM_CHANEL_1);
+
+for(int i = 0; i < 255; i++)
+{
+	TIM1->CCR1 = i;
+	HAL_Delay(50);
+}
+````
 

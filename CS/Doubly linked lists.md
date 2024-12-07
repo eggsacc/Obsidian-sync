@@ -11,7 +11,7 @@ Related: [[Linked lists]]
 
 In a doubly linked list, each node carries a pointer to both the next node and the previous node.
 
-![[Pasted image 20241029071939.png]]
+![[Pasted image 20241029071939.png#invert]]
 
 The first and last addresses are `NULL` to indicate the start and end of a list.
 

@@ -36,17 +36,17 @@ int binarySearch(int* arr, int low, int high, int target)
 The `low` and `high` values indicate the region of indexes to search. The position of the middle index `mid` given the a range (`low`, `high`) is `low + (high - low) / 2`. Note that all positions are integers, so any odd-number divisions will be rounded down.
 
 
-![[Pasted image 20241101224006.png]]
+![[Pasted image 20241101224006.png#invert]]
 
 
 The value at in the `mid` position is compared to the target value. If it is smaller than the target, we update the `low` and `high` values to match the new range to search.
 
 
-![[Pasted image 20241101225139.png]]
+![[Pasted image 20241101225139.png#invert]]
 
 Update `low` to narrow search range:
 
-![[Pasted image 20241101230006.png]]
+![[Pasted image 20241101230006.png#invert]]
 
 Writing in code:
 
