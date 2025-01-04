@@ -5,7 +5,7 @@ Tags:
 
 Related: NIL
 
-Sources: NIL
+Sources: [OpenGL Projection Matrix](https://www.songho.ca/opengl/gl_projectionmatrix.html#google_vignette) | [The Math behind (most) 3D games - Perspective Projection](https://www.youtube.com/watch?v=U0_ONQQ5ZNM&list=WL&index=3)
 
 ****
 
@@ -102,10 +102,10 @@ We can use the property of similar triangles to find a relationship between the 
 Hence, we get:
 
 $$
-\frac{y_{p}}{y}=\frac{n}{z},\ \ \frac{x_{p}}{x}=\frac{n}{z}
+\frac{y_{p}}{y}=\frac{n}{-z},\ \ \frac{x_{p}}{x}=\frac{n}{-z}
 $$
 $$
-y_{p}=\frac{n\cdot y}{z}, \ \ x_{p}=\frac{n\cdot x}{z}
+y_{p}=\frac{n\cdot y}{-z}, \ \ x_{p}=\frac{n\cdot x}{-z}
 $$
 
 
@@ -125,8 +125,8 @@ z \\
 1
 \end{pmatrix}=
 \begin{pmatrix}
-\frac{n\cdot x}{z} \\
-\frac{n\cdot y}{z} \\
+\frac{n\cdot x}{-z} \\
+\frac{n\cdot y}{-z} \\
 z \\
 1
 \end{pmatrix}
@@ -136,14 +136,14 @@ $$
 
 This is where homogeneous coordinates are used. We are probably all wondering why the vector representing each 3D point has 4 components -- the last `w` component is known as the **homogeneous value**, and OpenGL automatically divides all 3 `x, y, z` values by `w` internally. 
 
-We can use it to "store" the value of `z` by multiplying it by `z`.
+We can use it to "store" the value of `z` by multiplying it by `-z`.
 
 $$
 \begin{bmatrix}  
 n&0&0&0 \\
 0&n&0&0 \\
 0&0&u_{1}&u_{2} \\
-0&0&1&0
+0&0&-1&0
 \end{bmatrix} \cdot
 \begin{pmatrix}
 x \\
@@ -155,7 +155,7 @@ z \\
 n\cdot x \\
 n\cdot y \\
 z^2 \\
-z
+-z
 \end{pmatrix}
 $$
 
@@ -214,4 +214,111 @@ n&0&0&0 \\
 0&0&1&0
 \end{bmatrix}
 $$
+
+Ideally, we would want to map all the points between the planes linearly onto the near-plane. However, the best we could do is to make this true for only the points lying **on** the near-plane and far-plane. 
+
+Any point in between will be transformed non-linearly as illustrated below. The green line represents the ideal linear transformation, while the blue line represents the actual transformation of z-coordinates by the perspective matrix.
+
+
+![[Pasted image 20241207114102.png#invert]]
+
+
+However, this is not really an issue since the relative ordering of z-depth values are preserved between the planes. This means that we can still use the output $z_{p}$ to determine the ordering of objects in the scene.
+
+In fact, this non-linear relationship is beneficial to some extent since it aids in mitigating the issue of z-fighting, where vertices very close together on the same z-depth can be rendered together.
+
+
+## Final perspective transformation matrix
+
+The final perspective transformation matrix is a combination of the perspective matrix and the orthogonal matrix.
+
+$$
+\begin{bmatrix}
+\frac{2}{r-l}&0&0&-\frac{r+l}{r-l} \\
+0&\frac{2}{t-b}&0&-\frac{t+b}{t-b} \\
+0&0&-\frac{2}{f-n}&-\frac{f+n}{f-n} \\
+0&0&0&1
+\end{bmatrix} \cdot \begin{bmatrix}
+n&0&0&0 \\
+0&n&0&0 \\
+0&0&f+n&-n\cdot f \\
+0&0&-1&0
+\end{bmatrix}=
+\begin{bmatrix}
+\frac{2n}{r-l}&0&\frac{r+l}{r-l}&0 \\
+0&\frac{2n}{t-b}&\frac{t+b}{t-b}&0 \\
+0&0&-\frac{f+n}{f-n}&\frac{2n\cdot f}{f-n} \\
+0&0&-1&0
+\end{bmatrix}
+
+$$
+
+The transformation matrix could be simplified by setting the far-plane offset `f` to infinity in the third row.
+
+$$
+\lim_{ f \to \infty } -\frac{f+n}{f-n}=-1
+$$
+$$
+\lim_{ f \to \infty } -\frac{2n\cdot f}{f-n}=2n
+$$
+
+Hence, 
+
+$$
+P=\begin{bmatrix}
+\frac{2n}{r-l}&0&\frac{r+l}{r-l}&0 \\
+0&\frac{2n}{t-b}&\frac{t+b}{t-b}&0 \\
+0&0&-1&2n \\
+0&0&-1&0
+\end{bmatrix}
+$$
+### Field of view
+
+It is difficult to derive the left, right, top and bottom `(l, r, t, b)` values from only the plan offsets and dimensions. We can instead use the field of view (FOV) angle and the screen aspect ratio to easily determine these values using basic trigonometry.
+
+Consider the vertical field of view of $\theta$ degrees:
+
+![[Pasted image 20241207170220.png#invert]]
+
+![[Pasted image 20241207170252.png#invert]]
+
+
+To calculate the top value `t` :
+
+$$
+t=n \cdot \tan\left( \frac{\theta}{2} \right)
+$$
+
+
+The right value `r` is found by substituting $h=2t$ and $w=2r$
+
+$$
+r=\frac{w}{h} \times t 
+$$
+
+Since the near and far planes are centered and hence symmetrical around the origin, we deduce that:
+
+$$
+\begin{array} \\
+r=-l \\
+t=-b \\
+l+r=0 \\
+t+b=0
+\end{array}
+$$
+
+This could be used to simplify the transformation matrix even further:
+
+$$
+P=\begin{bmatrix}
+\frac{n}{w/h \times n \times \tan\left( \frac{\theta}{2} \right)}&0&0&0 \\
+0&\frac{n}{n \times \tan\left( \frac{\theta}{2} \right)}&0&0 \\
+0&0&-1&2n \\
+0&0&-1&0
+\end{bmatrix}
+$$
+
+
+
+
 

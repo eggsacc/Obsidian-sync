@@ -5,7 +5,7 @@ Tags:
 
 Related: NIL
 
-Sources: NIL
+Sources: [Explaining Homogeneous Coordinates & Projective Geometry — Tom Dalling](https://www.tomdalling.com/blog/modern-opengl/explaining-homogenous-coordinates-and-projective-geometry/)
 
 ****
 
