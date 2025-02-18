@@ -62,13 +62,13 @@ To understand why this happens, we need to understand what is going on in the pr
 When the `main()` function calls `AddTwoNum()`, the function is pushed onto the stack and in it's stack frame, the local variable `int result` is created. The function then returns the address of this local variable `&result`, which is stored in the pointer `ptrResult` in `main()`.
 
 
-![[Pasted image 20241005232510.png | center | 600]]
+![[Pasted image 20241005232510.png#invert | center | 600]]
 
 
 However, when the `AddTwoNum()` function returns, it is popped off the stack and the local variable `result` is also deleted.
 
 
-![[Pasted image 20241005232846.png | center | 600]]
+![[Pasted image 20241005232846.png#invert | center | 600]]
 
 
 The address that the pointer `ptrResult` points to no longer exists! 
@@ -80,4 +80,4 @@ Hence, even though the `ptrResult` is technically referencing unallocated memory
 However, if we called the `randomFunc()` **before** printing the result, it will get pushed onto the stack in the position that `AddTwoNum()` used to be. This would completely overwrite the contents of where `result` used to be stored, and when we try to de-reference it, we get some garbage value instead.
 
 
-![[Pasted image 20241005234057.png | center | 600]]
+![[Pasted image 20241005234057.png#invert| center | 600]]

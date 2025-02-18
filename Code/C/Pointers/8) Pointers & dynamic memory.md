@@ -32,13 +32,13 @@ Whenever a function is invoked, it gets pushed onto the stack. A chunk of memory
 The image below illustrates what happens in the stack when we try to print the variables `a` and `b` by calling the function `cout <<` .
 
 
-![[Pasted image 20241003111443.png | center | 600]]
+![[Pasted image 20241003111443.png#invert | center | 600]]
 
 
 Once a function finishes executing and returns, it's stack frame is popped (removed) from the stack and all the local variables are deleted.
 
 
-![[Pasted image 20241004093121.png | center | 600]]
+![[Pasted image 20241004093121.png#invert | center | 600]]
 
 
 The stack has a fixed memory size that is determined during compile time. If too many functions are called during runtime, the memory limit of the stack may be exceeded, resulting in a stack overflow. This is usually caused by poorly written recursive functions, such as back-tracking algorithms without exploration limits. These functions will invoke more functions indefinitely and eventually cause the program to crash due to stack overflow.
