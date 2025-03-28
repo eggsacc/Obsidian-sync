@@ -67,6 +67,10 @@ Since the execution of an ISR pauses the main program, there should be minimal c
 
 An external interrupt consists of an edge detector that could be set to trigger the interrupt at a rising and/or falling edge (configurable interrupt event). These interrupts are also independently maskable, meaning the processor can choose to enable or disable them.
 
+## Why interrupts?
 
+In many programs, we have to read and process real-time parameters like sensor inputs, analog signals etc. One way of doing so it to poll for inputs: in every iteration of the main program loop, we check the input device to see if it has any updates. This could be taxing on the CPU when there are many things to check, or when it has to establish an extensive communication protocol to check for inputs.
+
+Hence, we can attach these update events to an external interrupt. Most sensors has the functionality to trigger a pin whenever new data is ready to be sent back to the controller. Hence, instead of checking for updates in the program, we can just use an interrupt pin and ISR to process the incoming data only when it is ready.
 
 

@@ -8,62 +8,87 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b24140362a3d5e7e",
+            "id": "17c27c87e050b5d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/CS1010X/CS1010x.md",
+                "file": "Count change (recursive & iterative).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS1010x"
+              "title": "Count change (recursive & iterative)"
             }
           },
           {
-            "id": "01a9156f804c7180",
+            "id": "2adb596752cbde29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/CS1010X/Tree recursion.md",
+                "file": "OOP - Classes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tree recursion"
+              "title": "OOP - Classes"
             }
           },
           {
-            "id": "541fb7e1097f6e1f",
+            "id": "daf6b77462120f6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Closed-loop velocity control.md",
+                "file": "OOP - Inheritance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Closed-loop velocity control"
+              "title": "OOP - Inheritance"
             }
           },
           {
-            "id": "9242bdc11dc5f5bc",
+            "id": "39a76c28df0afa99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Closed-loop position control.md",
+                "file": "OOP - Polymorphism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Closed-loop position control"
+              "title": "OOP - Polymorphism"
+            }
+          },
+          {
+            "id": "90e1ce2977406cd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dijkstra's algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dijkstra's algorithm"
+            }
+          },
+          {
+            "id": "5be34eab2542c2c1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -228,15 +253,38 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "b24140362a3d5e7e",
+  "active": "5be34eab2542c2c1",
   "lastOpenFiles": [
+    "Priority queue - min heap.md",
+    "Dijkstra's algorithm.md",
+    "OOP - Polymorphism.md",
+    "OOP - Inheritance.md",
+    "OOP - Classes.md",
+    "Count change (recursive & iterative).md",
+    "MCUs/DMA.md",
     "Uni/CS1010X/Tree recursion.md",
-    "Closed-loop velocity control.md",
-    "attachments/Pasted image 20250219172357.png",
+    "attachments/Pasted image 20250319192954.png",
+    "attachments/Pasted image 20250319192922.png",
+    "attachments/Pasted image 20250319192850.png",
+    "attachments/Pasted image 20250319192122.png",
+    "attachments/Pasted image 20250319143649.png",
+    "attachments/Pasted image 20250319143405.png",
+    "attachments/Pasted image 20250319143257.png",
+    "attachments/Pasted image 20250319134928.png",
+    "attachments/Pasted image 20250319134911.png",
+    "attachments/Pasted image 20250319134713.png",
+    "MCUs/Interrupts.md",
+    "2025-03-14.md",
+    "2025-03-10.md",
+    "2025-03-06.md",
+    "Finding primes.md",
     "Closed-loop position control.md",
+    "Closed-loop velocity control.md",
+    "Gay porn/Sine approximation/Optimizing sine LUT.md",
+    "Gay porn/Sine approximation/Sine lookup table (LUT).md",
+    "Uni/CS1010X/CS1010x.md",
     "To-do.md",
     "FOC",
-    "MCUs/Interrupts.md",
     "Gay porn/CORDIC algorithm.md",
     "Manim/Manim basics.md",
     "Manim/Manim animation.md",
@@ -244,32 +292,9 @@
     "PCB/PCB design.md",
     "PCB",
     "PCB/PCB traces.md",
-    "Graphics processing/Transformations.md",
-    "Uni/CS1010X/Lists.md",
-    "TFWR functions.md",
     "Graphics processing",
     "Uni/CS1010X",
     "Uni",
-    "Gay porn/IEEE 754 - Floating point representation.md",
-    "2025-02-18.md",
-    "attachments/Pasted image 20250217110157.png",
-    "Untitled 1.md",
-    "Uni/CS1010X/CS1010x.md",
-    "Uni/CS1010X/Binary search.md",
-    "Template/Notes template.md",
-    "Graphics processing/OpenGL triangle.md",
-    "Graphics processing/OpenGL math.md",
-    "Graphics processing/Lighting.md",
-    "Graphics processing/Homogeneous coordinates.md",
-    "Graphics processing/Graphics pipeline.md",
-    "attachments/Error against Angle (1).svg",
-    "attachments/Pasted image 20241226165518.png",
-    "attachments/Pasted image 20241226165018.png",
-    "attachments/Pasted image 20241226140718.png",
-    "attachments/Pasted image 20241226132913.png",
-    "attachments/Pasted image 20241225235207.png",
-    "attachments/Pasted image 20241225234824.png",
-    "attachments/Pasted image 20241225153644.png",
     "Code/Python",
     "Code/C++",
     "Gay porn/Finding primes",
