@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "17c27c87e050b5d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Count change (recursive & iterative).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Count change (recursive & iterative)"
-            }
-          },
-          {
-            "id": "2adb596752cbde29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP - Classes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OOP - Classes"
-            }
-          },
-          {
-            "id": "daf6b77462120f6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP - Inheritance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OOP - Inheritance"
-            }
-          },
-          {
-            "id": "39a76c28df0afa99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP - Polymorphism.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OOP - Polymorphism"
-            }
-          },
-          {
             "id": "90e1ce2977406cd0",
             "type": "leaf",
             "state": {
@@ -78,17 +22,35 @@
             }
           },
           {
-            "id": "5be34eab2542c2c1",
+            "id": "2562d96dba113ef8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Code/C/Pointers/8) Pointers & dynamic memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8) Pointers & dynamic memory"
+            }
+          },
+          {
+            "id": "66bff0b40179fc2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/C/Pointers/10) Pointers to functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10) Pointers to functions"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,14 +215,21 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "5be34eab2542c2c1",
+  "active": "66bff0b40179fc2e",
   "lastOpenFiles": [
-    "Priority queue - min heap.md",
+    "Code/C/Pointers/9) Pointers as function returns.md",
+    "Code/C/Pointers/10) Pointers to functions.md",
+    "Code/C/Pointers/Pointers in C.md",
+    "Code/C/Pointers/8) Pointers & dynamic memory.md",
     "Dijkstra's algorithm.md",
-    "OOP - Polymorphism.md",
-    "OOP - Inheritance.md",
+    "Code/C/CMD code execution.md",
     "OOP - Classes.md",
+    "Untitled.canvas",
+    "Code/C/Command line arguments.md",
     "Count change (recursive & iterative).md",
+    "OOP - Inheritance.md",
+    "OOP - Polymorphism.md",
+    "Priority queue - min heap.md",
     "MCUs/DMA.md",
     "Uni/CS1010X/Tree recursion.md",
     "attachments/Pasted image 20250319192954.png",
@@ -286,12 +255,7 @@
     "To-do.md",
     "FOC",
     "Gay porn/CORDIC algorithm.md",
-    "Manim/Manim basics.md",
-    "Manim/Manim animation.md",
-    "Graphics processing/Camera.md",
-    "PCB/PCB design.md",
     "PCB",
-    "PCB/PCB traces.md",
     "Graphics processing",
     "Uni/CS1010X",
     "Uni",
